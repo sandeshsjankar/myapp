@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+
+    stages {
+        
+        stage('git clone') {
+            steps {
+           
+           git branch: 'main', url: 'https://github.com/sandeshsjankar/HemantDemo.git'
+           
+            }
+        }
+        
+        
+         stage('Package Install') {
+            steps {
+           
+         sh 'yarn install'
+           
+            }
+        }
+        
+        //   stage('Run Application') {
+        //     steps {
+           
+        //  sh 'yarn start'
+           
+        //     }
+        // }
+        
+         stage('Docker Image') {
+            steps {
+           
+         sh 'docker build -f Dockerfile -t jankarsandesh .'
+           
+            }
+        }
+        
+        
+        
+    }
+}

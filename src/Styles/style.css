@@ -1,0 +1,44 @@
+
+.csvdownload{
+    margin-top: 17px !important;
+}
+
+.containerHead{
+background-color: #F16C49;
+color: #fff;
+height: 50px;
+padding-top: 13px;
+}
+
+.containerHead img{
+    height: 31px;
+
+}
+
+.first{
+    font-size: 17px;
+    font-weight: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+.second{
+    opacity: 0.5;
+    color: white;
+}
+
+.third{
+    background-color: black;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+.fourth{
+    color: black;
+    float: right;
+    font-size: 13px;
+    padding: 2px;
+    margin-right: 6px
+}

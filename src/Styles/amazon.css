@@ -1,0 +1,11 @@
+.containerMain{
+    color: black;
+    background-color: #131921;
+}
+
+
+.first .second{
+    color: white;
+    font-size: 13px;
+    opacity: 0.5;
+}
